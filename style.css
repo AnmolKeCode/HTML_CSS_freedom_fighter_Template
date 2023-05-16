@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-box {
+    padding: 0 9%;
+    background-color: aliceblue;
+}
+
+
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.heading {
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+
+.Freedom-box {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .title {
+        font-size: 3.3rem;
+        text-align: left;
+    }
+
+    .Freedom-box {
+        display: block;
+    }
+}
+
+
+.img {
+    width: 180px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.about-bhagat-singh p,
+.about-subhasJi p {
+    margin: 2rem 0;
+}
